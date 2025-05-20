@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 from decouple import config
 
-SECRET_KEY = config('django-insecure-h^#0vkk+)=7n1&x*!#2&(=nn$ncz9tg#q&%#*q4^8w#s@50wvz')
+# SECRET_KEY = config('django-insecure-h^#0vkk+)=7n1&x*!#2&(=nn$ncz9tg#q&%#*q4^8w#s@50wvz')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 
