@@ -34,6 +34,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 SITE_DOMAIN = 'http://127.0.0.1:8000'
+CSRF_TRUSTED_ORIGINS = []
+
+CSRF_COOKIE_SECURE = not DEBUG
+SESSION_COOKIE_SECURE = not DEBUG
 
 # Application definition
 
